@@ -6,15 +6,36 @@ body {
 h1 {
   font-size: 70px;
   font-weight: bold;
-  color: white;
 }
 
-.header {
-  background-image:
-  url("../../resources/images/flatironbackground.png");
+h2 {
+  font-size: 32px;
+  font-weight: bold;
 }
 
-.nav, p {
+h3 {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+a {
   font-size: 18px;
   color: white;
+}
+
+p {
+  font-size: 14px;
+}
+
+.headbar {
+  background-image: url("../../resources/images/flatironbackground.png");
+  color: white;
+}
+
+.footer {
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+  text-align: left;
+
 }
